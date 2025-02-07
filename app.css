@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   background: #f1f1f1;
   font-family: Roboto, sans-serif;
@@ -42,6 +46,12 @@ a {
 
 .topbar-nav a:hover, .topbar-nav a.active {
   color: #FFF;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 522px) {
