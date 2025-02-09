@@ -54,15 +54,11 @@ a {
   margin: 0 auto;
 }
 
-.sidebar {
-  font-size: 12px;
-}
-
 .sidebar a {
   display: block;
   text-decoration: none;
-  transition: color .2s;
   padding: 0.6em 0;
+  transition: color .3s;
 }
 
 .sidebar a::before {
@@ -73,7 +69,9 @@ a {
   vertical-align: middle;
   margin-top: -2px;
   margin-right: 20px;
+  opacity: .67;
   background: url(img/home.svg) center center / contain no-repeat;
+  transition: opacity .3s;
 }
 
 .sidebar .sidebar-messages::before{
@@ -84,12 +82,12 @@ a {
   background-image: url(img/calendar.svg);
 }
 
-.sidebar .sidebar-groupes::before {
-  background-image: url(img/groupes.svg);
+.sidebar .sidebar-group::before {
+  background-image: url(img/group.svg);
 }
 
-.sidebar .sidebar-groupes::before {
-  background-image: url(img/groupes.svg);
+.sidebar .sidebar-group::before {
+  background-image: url(img/group.svg);
 }
 
 .sidebar a:hover {
@@ -101,9 +99,12 @@ a {
   color: black;
 }
 
-.sidebar a.active {
-  color: black;
+.sidebar a:hover::before,
+.sidebar a.active::before {
+  opacity: 1;
 }
+
+/* RESPONSIVE TOPBAR  */
 
 @media only screen and (min-width: 522px) {
   .topbar {
