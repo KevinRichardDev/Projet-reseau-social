@@ -120,9 +120,19 @@ a {
   opacity: 1;
 }
 
+.card {
+  border: solid 1px #DBDBDB;
+  background: #FFF;
+  border-radius: 3px;
+}
+
+.card-header {
+  padding: 10px;
+}
+
 /* RESPONSIVE TOPBAR  */
 
-@media only screen and (min-width: 522px) {
+@media only screen and (min-width: 520px) {
   .topbar {
     display: flex;
     justify-content: space-between;
