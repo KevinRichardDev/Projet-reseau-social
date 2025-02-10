@@ -128,6 +128,18 @@ a {
 
 .card-header {
   padding: 10px;
+  position: relative;
+
+}
+
+.card-header-avatar {
+  padding-left: 65px;
+}
+
+.card-avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .card-title {
