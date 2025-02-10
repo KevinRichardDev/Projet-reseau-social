@@ -138,8 +138,9 @@ a {
 
 .card-avatar {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
 }
 
 .card-title {
