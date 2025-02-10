@@ -159,6 +159,13 @@ a {
   padding: 0 10px;
 }
 
+.card-body .fullwidth {
+  width: calc(100% + 20px);
+  display: block;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
 .card-body p:first-child{
   margin-top: 0;
 }
