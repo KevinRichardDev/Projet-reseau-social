@@ -124,6 +124,11 @@ a {
   border: solid 1px #DBDBDB;
   background: #FFF;
   border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.card:last-child {
+  margin-bottom: 0;
 }
 
 .card-header {
