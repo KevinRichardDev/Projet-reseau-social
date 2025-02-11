@@ -178,7 +178,7 @@ a {
   border-top: solid 1px #DBDBDB;
   background: #FBFBFB;
   display: flex;
-  padding: 0 10px;
+  padding: 10px;
   font-size: 12px;
   color: #BDBDBD;
 }
@@ -187,16 +187,24 @@ a {
   text-decoration: none;
 }
 
-.card-like::before {
+.card-like::before, 
+.card-comment::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
   width: 20px;
-  height: 18px;
+  height: 20px;
   background: url(img/like.svg) center center / 20px 18px no-repeat;
 }
 
+.card-comment {
+  margin-left: auto;
+}
+
+.card-comment::before {
+  background: url(img/comment.svg) center center / 18px 17px no-repeat;
+}
 /* RESPONSIVE TOPBAR  */
 
 @media only screen and (min-width: 520px) {
