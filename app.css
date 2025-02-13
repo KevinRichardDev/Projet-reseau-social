@@ -238,7 +238,12 @@ a {
   display: flex;
 }
 
-
+.friend-avatar {
+  width: 73px;
+  height: 73px;
+  flex: none;
+  margin-right: 10px;
+}
 
 
 
