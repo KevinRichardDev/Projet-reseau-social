@@ -162,7 +162,6 @@ a {
 
 .card-body a {
   color: #34AAFF;
-  text-decoration: underline;
 }
 
 .card-body .fullwidth {
@@ -235,6 +234,11 @@ a {
   display: flex;
 }
 
+.friend-body {
+  display: flex;
+  flex-direction: column;
+}
+
 .friend-avatar {
   width: 73px;
   height: 73px;
@@ -246,6 +250,7 @@ a {
   display: block;
   font-weight: bold;
   color: #000;
+  font-size: 15px;
 }
 
 .friend-connections {
@@ -253,8 +258,10 @@ a {
 }
 
 .friend-add {
+  display: block;
   font-size: 12px;
   color: #000;
+  margin-top: auto;
 }
 
 .friend-add::before {
@@ -264,6 +271,7 @@ a {
   height: 13px;
   background: center center / 18px 13px no-repeat url(img/user-add.svg);
   vertical-align: middle;
+  margin-right: 5px;
 }
 
 
