@@ -251,8 +251,23 @@ a {
   color: #000;
 }
 
+.friend-connections {
 
+}
 
+.friend-add {
+  font-size: 12px;
+  color: #000;
+}
+
+.friend-add::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 13px;
+  background: center center / 18px 13px no-repeat url(img/user-add.svg);
+  vertical-align: middle;
+}
 
 
 /* RESPONSIVE TOPBAR  */
