@@ -160,6 +160,11 @@ a {
   padding: 0 10px 20px 10px;
 }
 
+.card-body a {
+  color: #34AAFF;
+  text-decoration: underline;
+}
+
 .card-body .fullwidth {
   width: calc(100% + 20px);
   display: block;
