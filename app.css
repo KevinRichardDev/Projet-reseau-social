@@ -64,6 +64,14 @@ a {
   margin-bottom: 20px;
 }
 
+.main {
+  margin-bottom: 20px;
+}
+
+.profil {
+  display: none;
+}
+
 .sidebar a {
   display: block;
   width: 50%;
@@ -312,6 +320,10 @@ a {
 
   .site {
     display: flex;
+  }
+
+  .profil {
+    display: block;
   }
 
   .sidebar {
