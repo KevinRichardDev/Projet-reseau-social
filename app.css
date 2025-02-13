@@ -233,6 +233,12 @@ a {
   background: #000;
 }
 
+.friend {
+  margin: 14px 0;
+  display: flex;
+}
+
+
 
 
 
